@@ -206,8 +206,8 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
-# Screen density
-TARGET_SCREEN_DENSITY := 411
+# Security patch level
+VENDOR_SECURITY_PATCH := 2023-01-01
 
 # Sepolicy
 include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
