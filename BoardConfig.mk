@@ -67,5 +67,8 @@ TARGET_BOARD_PLATFORM := lahaina
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
 
+# Screen density
+TARGET_SCREEN_DENSITY := 411
+
 # Inherit proprietary blobs
 -include vendor/xiaomi/lisa/BoardConfigVendor.mk
