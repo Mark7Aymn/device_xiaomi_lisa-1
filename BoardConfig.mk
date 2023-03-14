@@ -123,5 +123,9 @@ TARGET_USES_MKE2FS := true
 # Screen density
 TARGET_SCREEN_DENSITY := 411
 
+# Verified Boot
+BOARD_AVB_ENABLE := true
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 2
+
 # Inherit proprietary blobs
 -include vendor/xiaomi/lisa/BoardConfigVendor.mk
