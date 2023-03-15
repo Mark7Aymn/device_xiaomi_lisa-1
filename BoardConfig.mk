@@ -165,7 +165,7 @@ TARGET_USES_MKE2FS := true
 TARGET_SCREEN_DENSITY := 411
 
 # Sepolicy
-include device/qcom/sepolicy_vndr/SEPolicy.mk
+include device/qcom/sepolicy_vndr-legacy-um/SEPolicy.mk
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
