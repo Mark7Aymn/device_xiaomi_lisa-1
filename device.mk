@@ -348,6 +348,7 @@ PRODUCT_COPY_FILES += \
 
 # Minijail
 PRODUCT_PACKAGES += \
+    libminijail \
     libavservices_minijail \
     libavservices_minijail.vendor \
     libcodec2_hidl@1.1.vendor \
