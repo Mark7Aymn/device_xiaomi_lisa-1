@@ -820,7 +820,4 @@
     <!-- Defines the value used by the device sysfs node
          to disable DC dimming -->
     <string name="config_deviceDcDimmingDisableValue">08 00</string>
-
-    <!-- Device model (Build.MODEL) to spoof for netflix, if not empty -->
-    <string name="config_netflixSpoofModel" translatable="false">M2101K9G</string>
 </resources>
